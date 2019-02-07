@@ -32,7 +32,10 @@ class App extends Component {
 		});
 		
 		return !robots.length ?
-		<h1 className='tc'>Loading</h1> :
+		<div>
+			<h1 className='tc'>Loading</h1>
+			<h3 className='tc'>Been a while and not seeing anything? Your browser may be blocking some necessary scripts. Please enable them. I promise, they're safe :)</h3>
+		</div> :
 		(
 			<div className='tc'>
 				<h1 className='f1'>Robofriends</h1>
